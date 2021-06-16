@@ -22,6 +22,15 @@ public class TestUser implements Serializable {
      */
     private String password;
 
+    public TestUser() {
+    }
+
+    public TestUser(Integer id, String name, String password) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+    }
+
     private static final long serialVersionUID = 1L;
 
     /**
