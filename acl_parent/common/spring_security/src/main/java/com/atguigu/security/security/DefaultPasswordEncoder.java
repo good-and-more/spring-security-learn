@@ -2,7 +2,9 @@ package com.atguigu.security.security;
 
 import com.atguigu.utils.MD5;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DefaultPasswordEncoder implements PasswordEncoder {
 
     //这个构造方法有啥用?
